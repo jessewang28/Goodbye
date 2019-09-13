@@ -9,6 +9,20 @@ public class Main {
         //int x = (int) (Math.random()*10); //random integer between (0.0, 10)
         int x = (int) (Math.random()*10) + 10; //random integer between (10.0, 20.0)
                                                 // (int) (Math.random() * a +b  --> "a" numbers starting at b
-        System.out.println(x);
+        //Random Numbers Assignment:
+        int a = (int) (Math.random() * 11);
+        int b = (int) (Math.random() * 6+1);
+        int c = (int) (Math.random() * 2);
+        int d = (int) ((Math.random() * 6 +1) + (Math.random() * 6+1));
+        int e = (int) (Math.random() * 35 +65);
+        int f = (int) (Math.random() * 10 + 1);
+
+       // System.out.println(x);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
     }
 }
