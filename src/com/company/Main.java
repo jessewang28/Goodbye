@@ -14,8 +14,8 @@ public class Main {
         int b = (int) (Math.random() * 6+1);
         int c = (int) (Math.random() * 2);
         int d = (int) ((Math.random() * 6 +1) + (Math.random() * 6+1));
-        int e = (int) (Math.random() * 35 +65);
-        int f = (int) (Math.random() * 10 + 1);
+        int e = (int) (Math.random() * 36 +65);
+        double f = (double) (Math.random() * 9 +1);
 
        // System.out.println(x);
         System.out.println(a);
