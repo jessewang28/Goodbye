@@ -8,7 +8,7 @@ public class Main {
         //double x = Math.random()*10;    //random double (0.0,10.0)
         //int x = (int) (Math.random()*10); //random integer between (0.0, 10)
         int x = (int) (Math.random()*10) + 10; //random integer between (10.0, 20.0)
-        
+                                                // (int) (Math.random() * a +b  --> "a" numbers starting at b
         System.out.println(x);
     }
 }
